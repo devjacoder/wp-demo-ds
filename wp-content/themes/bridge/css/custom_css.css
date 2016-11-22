@@ -1,0 +1,236 @@
+
+
+.carousel-inner .right h2 {
+
+    margin-right: -35px;
+
+    margin-bottom: 33px;
+
+}
+
+
+
+.carousel-inner .slider_content .text .qbutton{
+
+    font-size: 19px;
+
+    height: 64px;
+
+    line-height: 64px;
+
+    padding-left: 48px;
+
+    padding-right: 48px;
+
+}
+
+
+
+.shopping_cart_header .header_cart.cart_icon:before {
+
+    color: #111;
+
+}
+
+
+
+ .shopping_cart_header .header_cart.cart_icon .header_cart_span {
+
+    background-color: #111;
+
+    font-size: 11px;
+
+}
+
+
+
+.side_menu_button a:last-child {
+
+    padding: 0;
+
+}
+
+
+
+.header_bottom .shopping_cart_header {
+
+    padding: 0 0 0 7px;
+
+}
+
+
+
+.header_bottom_right_widget_holder {
+
+    padding: 0 5px;
+
+}
+
+
+
+.footer_top .widget_nav_menu ul li {
+
+    padding-bottom: 0;
+
+}
+
+
+
+.footer_top .footer_col1 .column_inner .q_social_icon_holder .fa-stack span {
+
+    padding-left: 3px;
+
+}
+
+
+
+@media only screen and (min-width: 1001px) {
+
+    .four_columns>.column1>.column_inner { 
+
+    padding: 0 71px 0 0;
+
+}
+
+}
+
+
+
+.two_columns_form_with_space .column_left {
+
+    padding-right: 3px;
+
+}
+
+
+
+.cf7_custom_style_2 input.wpcf7-form-control.wpcf7-text, .cf7_custom_style_2 textarea.wpcf7-form-control.wpcf7-textarea {
+
+    text-align: center;
+
+}
+
+
+
+.cf7_custom_style_2 input.wpcf7-form-control.wpcf7-submit, .cf7_custom_style_2 input.wpcf7-form-control.wpcf7-submit:not([disabled]) {
+
+    margin-top: 19px; 
+
+}
+
+
+
+.latest_post_two_holder .latest_post_two_text .separator.small {
+
+    width: 40px;
+
+    margin: 15px 0 29px;
+
+}
+
+
+
+.latest_post_two_holder .latest_post_two_info_inner .post_info_author_name, .latest_post_two_holder .latest_post_two_info_inner .post_info_date {
+
+    font-family: 'Lekton', sans-serif;
+
+}
+
+
+
+.q_dropcap {
+
+margin: 0px 18px 0px 0px;
+
+}
+
+
+
+.comment_holder .comment {
+
+    padding: 28px 25px 48px;
+
+    border-bottom: 1px #E0E0E0 solid;
+
+}
+
+
+
+.comments .comment .text .comment_date {
+
+    font-family: 'Lekton', sans-serif;
+
+    font-weight: 700;
+
+    font-size: 10px;
+
+}
+
+
+
+.comment_holder .comment .text .name {
+
+    line-height: 21px; 
+
+}
+
+
+
+.comments .comment .text .text_holder {
+
+    margin: 15px 0 0;
+
+}
+
+
+
+.icon_social_holder>div {
+
+    font-family: 'Lekton', sans-serif;
+
+    font-weight: 700;
+
+}
+
+
+
+#respond textarea, #respond input[type=text] {
+
+    font-family: 'Lekton', sans-serif;
+
+}
+
+
+
+.shopping_cart_dropdown {
+
+    background-color: #111111;
+
+}
+
+
+
+.q_accordion_holder.accordion.boxed .ui-accordion-header {
+
+    text-align: center;
+
+    background-color: #eae8e9;
+
+}
+
+
+
+.shopping_cart_dropdown ul li a{
+
+    color: #fff;
+
+}
+
+
+
+.woocommerce .woocommerce-message a.button:hover {
+
+    color: #fff;
+
+}
+
