@@ -5464,3 +5464,40 @@ function wp_raise_memory_limit( $context = 'admin' ) {
 
 	return false;
 }
+
+
+
+
+
+function add_e2_date_picker(){
+//jQuery UI date picker file
+wp_enqueue_script('jquery-ui-datepicker');
+//jQuery UI theme css file
+wp_enqueue_style('e2b-admin-ui-css','http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/themes/base/jquery-ui.css',false,"1.9.0",false);
+}
+add_action('wp_enqueue_scripts', 'add_e2_date_picker'); 
+
+
+function register_datepiker_submenu() {
+    add_submenu_page( 'options-general.php', 'Date Picker', 'Date Picker', 'manage_options', 'date-picker', 'datepiker_submenu_callback' );
+}
+
+function datepiker_submenu_callback() { ?>
+
+    <div class="wrap">
+
+    <input type="text" class="datepicker" name="datepicker" value=""/>
+
+    </div>
+
+    <script>
+    jQuery(function() {
+        jQuery( ".datepicker" ).datepicker({
+            dateFormat : "dd-mm-yy"
+        });
+    });
+    </script> 
+
+<?php }
+add_action('admin_menu', 'register_datepiker_submenu');
+?>
